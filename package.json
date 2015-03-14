@@ -1,0 +1,26 @@
+{
+  "name": "fancy-form",
+  "version": "1.0.0",
+  "description": "fancy-form",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/fancy-form",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "css-wipe": "^1.0.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.7",
+    "standard": "^2.11.0",
+    "tape": "^3.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}

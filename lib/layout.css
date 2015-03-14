@@ -1,0 +1,13 @@
+.column {
+  position: relative;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-content: stretch;
+}
+

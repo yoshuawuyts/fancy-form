@@ -1,0 +1,57 @@
+.form-lower {
+  margin-top: 30px;
+}
+
+form {
+  border: none;
+}
+
+form > section:not(:first-child) {
+  margin-top: -3px;
+}
+
+div > .form-input:nth-of-type(1) {
+  border-top-style: solid;
+}
+
+.form-input {
+  display: flex;
+  background-color: var(--color-pink);
+  border-color: var(--color-black);
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-width: 2px;
+  flex-flow: column;
+}
+
+.g50 {
+  width: 50%;
+}
+
+.g100 {
+  width: 100%;
+}
+
+.input-tag {
+  padding-top: 4px;
+  font-size: 14px;
+  background-color: var(--color-pink);
+}
+
+.input {
+  height: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: var(--color-pink);
+  border-style: none;
+}
+
+.input-border-left {
+  padding-left: 10px;
+  margin-left: -10px;
+  border-left-style: solid;
+}

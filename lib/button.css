@@ -1,0 +1,10 @@
+button {
+  padding: 16px;
+  margin-top: 26px;
+  color: var(--color-black);
+  cursor: pointer;
+  background-color: var(--color-pink);
+  border-color: var(--color-black);
+  border-style: solid;
+  border-width: 2px;
+}

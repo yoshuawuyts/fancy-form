@@ -1,0 +1,11 @@
+@import 'lib/vars.css';
+@import 'lib/type.css';
+@import 'lib/layout.css';
+@import 'lib/title.css';
+@import 'lib/form.css';
+@import 'lib/button.css';
+@import 'lib/omnibox.css';
+
+body {
+  background-color: var(--color-pink);
+}

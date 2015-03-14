@@ -1,0 +1,44 @@
+.metarow {
+  justify-content: space-between;
+}
+
+.omnibox {
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 26px;
+  border-color: bar(--color-black);
+  border-style: solid;
+  border-width: 2px;
+}
+
+.omnibox-header {
+  margin-top: 6px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.omnibox-header-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.omnibox-link {
+  width: 100%;
+  border-color: var(--color-black);
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+
+.omnibox-link > a {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.omnibox > .row:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.omnibox > .row:last-child {
+  margin-bottom: 16px;
+}
