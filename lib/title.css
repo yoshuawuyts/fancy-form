@@ -1,21 +1,35 @@
 .title {
-  padding: 20px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
   margin-top: 6vh;
   background-color: var(--color-white);
 }
 
 .title-heading, 
-.title-subheading {
+.title-subheading,
+.title-quote {
   border-color: var(--color-black);
   border-bottom-style: solid;
   border-width: 3px;
 }
 
+.title-heading,
+.title-subheading {
+  padding-left: 6px;
+}
+
+.title-subheading {
+  margin-bottom: 36px;
+  line-height: 30px;
+}
+
 .title-heading {
-  margin-bottom: 8px;
-  line-height: 60px;
+  margin-bottom: 24px;
+  line-height: 50px;
 }
 
 .title-heading:last-of-type {
-  margin-bottom: 16px;
+  margin-bottom: 6px;
 }
