@@ -11,7 +11,9 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "css-wipe": "^1.0.1"
+    "css-wipe": "^1.0.1",
+    "deku": "0.0.28",
+    "polyfill-webcomponents": "^0.20150204.0"
   },
   "devDependencies": {
     "istanbul": "^0.3.7",
