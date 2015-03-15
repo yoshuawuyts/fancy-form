@@ -1,5 +1,4 @@
 # fancy-form
-[![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 [![js-standard-style][standard-image]][standard-url]
@@ -36,8 +35,6 @@ $ hub clone yoshuawuyts/fancy-form
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
-[npm-image]: https://img.shields.io/npm/v/fancy-form.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/fancy-form
 [travis-image]: https://img.shields.io/travis/yoshuawuyts/fancy-form.svg?style=flat-square
 [travis-url]: https://travis-ci.org/yoshuawuyts/fancy-form
 [coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/fancy-form.svg?style=flat-square
