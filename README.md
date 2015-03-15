@@ -4,7 +4,7 @@
 [![js-standard-style][standard-image]][standard-url]
 
 A form that tries to do well on terms of both UX and code. On the one hand
-it's modular, conscise and snappy. On the other hand it feels pleasant,
+it's modular, concise and snappy. On the other hand it feels pleasant,
 helpful and is recognizable. Consider this an exercise in overengineering.
 
 ![screenshot](docs/screenshot.png)
