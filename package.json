@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "standard && NODE_ENV=test node test",
-    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js",
+    "start": "open http://localhost:1337 && wzrd app.js -p 1337 -- -t babelify"
   },
   "repository": "yoshuawuyts/fancy-form",
   "keywords": [],
@@ -16,9 +17,11 @@
     "polyfill-webcomponents": "^0.20150204.0"
   },
   "devDependencies": {
+    "babelify": "^5.0.4",
     "istanbul": "^0.3.7",
     "standard": "^2.11.0",
-    "tape": "^3.5.0"
+    "tape": "^3.5.0",
+    "wzrd": "^1.2.1"
   },
   "files": [
     "LICENSE",

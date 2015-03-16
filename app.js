@@ -1,0 +1,1 @@
+require('./view-landing-title')
